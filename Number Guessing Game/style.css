@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+header {
+    margin-bottom: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.output {
+    background-color: white;
+    color: black;
+    padding: 40px;
+}
+
+button {
+    background-color: white;
+    padding: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+input {
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    height: 40px;
+    text-align: center;
+}
+
+.btns,
+.numberContainer {
+    margin: 20px 0px;
+}
+
+.hint,
+.cs,
+.bs {
+    text-align: center;
+    line-height: 30px;
+    margin: 20px 0px;
+}
